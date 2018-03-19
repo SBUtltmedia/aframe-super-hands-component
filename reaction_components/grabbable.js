@@ -10,7 +10,7 @@ AFRAME.registerComponent('grabbable', inherit(base, {
     maxGrabbers: {type: 'int', default: NaN},
     invert: {default: false},
     suppressY: {default: false},
-    suppress: {default {x:false,y:false,z:false}}
+    suppress: {default: {x:false,y:false,z:false}}
   },
   init: function () {
     this.GRABBED_STATE = 'grabbed'
